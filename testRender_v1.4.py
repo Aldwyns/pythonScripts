@@ -131,7 +131,8 @@ class testRender():
 			cmds.layoutDialog(dismiss="Starting render!")
 			# Start Render
 			cmds.hwRender(noRenderView=True)
-			#cmds.ogsRender(camera=self.camera, noRenderView=True)
+			#cmds.ogsRender(noRenderView=True)
+			#cmds.render()
 
 	def setSettings(self):
 		'''Settings to change before rendering'''
